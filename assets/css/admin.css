@@ -1,0 +1,219 @@
+/* ========================================= */
+/* BIẾN MÀU & FONT CHỮ (PHONG CÁCH SÁNG & SẠCH) */
+/* ========================================= */
+:root {
+    --primary-color: #0d6efd;      /* Xanh dương chuẩn của Bootstrap */
+    --sidebar-bg: #ffffff;         /* Nền trắng */
+    --content-bg: #f8f9fa;         /* Nền xám rất nhạt */
+    
+    --sidebar-text: #5a6a85;       /* Xám đậm cho chữ */
+    --sidebar-text-hover: #0d6efd;   
+    --sidebar-text-active: #0d6efd;   
+
+    --sidebar-active-bg: #e7f1ff;     /* Nền xanh dương rất nhạt khi active */
+    --sidebar-title-text: #99a4b7;  /* Xám nhạt cho tiêu đề nhóm */
+    --border-color: #dee2e6;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: var(--content-bg);
+    color: #212529;
+    font-size: 14px;
+}
+
+/* ========================================= */
+/* BỐ CỤC & SIDEBAR (THIẾT KẾ MỚI) */
+/* ========================================= */
+.admin-wrapper { display: flex; }
+
+.sidebar {
+    width: 260px;
+    background-color: var(--sidebar-bg);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1040;
+    border-right: 1px solid var(--border-color);
+}
+
+.sidebar-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
+    overflow-y: auto;
+}
+.sidebar-logo {
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.sidebar-logo img {
+    max-width: 110px;
+    height: auto;
+}
+
+/* --- Menu Items --- */
+.sidebar-nav {
+    list-style: none;
+    padding-left: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .nav-item {
+    margin: 0.125rem 0;
+}
+.sidebar .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    color: var(--sidebar-text);
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+.sidebar .nav-link i {
+    font-size: 1.1em;
+    width: 1.5rem;
+    margin-right: 0.8rem;
+    text-align: center;
+    flex-shrink: 0;
+    color: var(--sidebar-title-text);
+    transition: color 0.2s ease-in-out;
+}
+.sidebar .nav-link:hover {
+    background-color: var(--sidebar-active-bg);
+    color: var(--sidebar-text-hover);
+}
+.sidebar .nav-link:hover i {
+    color: var(--sidebar-text-hover);
+}
+.sidebar .nav-link.active {
+    background-color: var(--sidebar-active-bg);
+    color: var(--sidebar-text-active);
+    font-weight: 600;
+}
+.sidebar .nav-link.active i {
+    color: var(--sidebar-text-active);
+}
+
+/* --- Dropdown (Collapse Menu) --- */
+.sidebar .nav-link[data-bs-toggle="collapse"] i:last-child {
+    margin-left: auto;
+    font-size: 0.7em;
+    transition: transform 0.2s ease-in-out;
+}
+.sidebar .nav-link[data-bs-toggle="collapse"]:not(.collapsed) i:last-child {
+    transform: rotate(180deg);
+}
+.sidebar .nav-sub {
+    list-style: none;
+    padding: 0.25rem 0 0.25rem 1.5rem;
+}
+.sidebar .nav-sub-item .nav-link {
+    font-size: 0.9em;
+    padding: 0.6rem 1rem;
+    color: var(--sidebar-text);
+}
+.sidebar .nav-sub-item .nav-link::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: var(--sidebar-title-text);
+    border-radius: 50%;
+    margin-right: 1.2rem;
+    transition: all 0.2s ease;
+}
+.sidebar .nav-sub-item .nav-link:hover {
+    color: var(--sidebar-text-hover);
+}
+.sidebar .nav-sub-item .nav-link.active {
+    background: none;
+    color: var(--sidebar-text-active);
+    font-weight: 500;
+}
+.sidebar .nav-sub-item .nav-link.active::before {
+    background-color: var(--primary-color);
+}
+
+/* --- Tiêu đề & Logout --- */
+.sidebar .nav-title {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 1.5rem 1rem 0.5rem;
+    color: var(--sidebar-title-text);
+    text-transform: uppercase;
+}
+.sidebar .nav-item-divider {
+    margin: 1rem 1rem;
+    border-top: 1px solid var(--border-color);
+}
+.sidebar .nav-item:last-child {
+    margin-top: auto;
+}
+.sidebar .nav-link.logout:hover {
+    background-color: rgba(220, 53, 69, 0.1);
+    color: #dc3545;
+}
+.sidebar .nav-link.logout:hover i {
+    color: #dc3545;
+}
+
+/* ========================================= */
+/* CÁC THÀNH PHẦN KHÁC */
+/* ========================================= */
+.main-content { margin-left: 260px; width: calc(100% - 260px); transition: margin-left 0.3s ease-in-out; }
+.topbar { background-color: #ffffff; border-bottom: 1px solid var(--border-color); }
+.content-area { padding: 2rem; }
+.card { border: 1px solid var(--border-color); border-radius: 8px; box-shadow: none; }
+.card-header { background-color: #ffffff; border-bottom: 1px solid var(--border-color); font-weight: 600; color: #34495e; }
+#toggleSidebar { position: fixed; top: 1rem; left: 1rem; z-index: 1041; border: none; }
+.sidebar-backdrop { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1030; opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; }
+/* CSS for SEO Preview */
+.google-preview {
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 600px;
+}
+.preview-title {
+    color: #1a0dab;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.preview-url {
+    color: #202124;
+    font-size: 14px;
+    padding-top: 1px;
+}
+.preview-desc {
+    color: #4d5156;
+    font-size: 14px;
+    line-height: 1.58;
+    word-wrap: break-word;
+}
+/* ========================================= */
+/* Responsive */
+/* ========================================= */
+@media (max-width: 992px) {
+    .sidebar { left: -260px; }
+    .sidebar.show { left: 0; box-shadow: 0 0 1rem rgba(0,0,0,.15); }
+    .sidebar.show ~ .sidebar-backdrop { opacity: 1; visibility: visible; }
+    .main-content { margin-left: 0; width: 100%; }
+    body.sidebar-open { overflow: hidden; }
+}
+
+/* Scrollbar tùy chỉnh */
+.sidebar-inner::-webkit-scrollbar { width: 6px; }
+.sidebar-inner::-webkit-scrollbar-track { background: transparent; }
+.sidebar-inner::-webkit-scrollbar-thumb { background: #dde2e8; border-radius: 3px; }
+.sidebar-inner::-webkit-scrollbar-thumb:hover { background: #c5cdd8; }

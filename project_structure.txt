@@ -1,0 +1,344 @@
+Folder PATH listing for volume Windows
+Volume serial number is E828-0525
+C:.
+³   .htaccess
+³   composer.json
+³   composer.lock
+³   homepage_static.html
+³   index.php
+³   interior_store (8).sql
+³   project_structure.txt
+³   setup_structure.php
+³   test_db.php
+³   
+ÃÄÄÄadmin
+³   ³   dashboard.php
+³   ³   forgot-password.php
+³   ³   index.php
+³   ³   layout.php
+³   ³   login.php
+³   ³   logout.php
+³   ³   profile.php
+³   ³   reset-password.php
+³   ³   
+³   ÃÄÄÄadmin_logs
+³   ³       bulk_delete.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄappointments
+³   ³       create.php
+³   ³       delete.php
+³   ³       edit.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄblogs
+³   ³       create.php
+³   ³       delete.php
+³   ³       edit.php
+³   ³       index.php
+³   ³       upload_handler.php
+³   ³       
+³   ÃÄÄÄblog_categories
+³   ³       delete.php
+³   ³       get_category_details.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄblog_comments
+³   ³       delete.php
+³   ³       index.php
+³   ³       update_status.php
+³   ³       
+³   ÃÄÄÄcategories
+³   ³       create.php
+³   ³       delete.php
+³   ³       edit.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄfeedbacks
+³   ³       delete.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄmedia
+³   ³       delete.php
+³   ³       index.php
+³   ³       media_picker.php
+³   ³       
+³   ÃÄÄÄmenus
+³   ³       create.php
+³   ³       delete.php
+³   ³       edit.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄorders
+³   ³       delete.php
+³   ³       details.php
+³   ³       edit.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄpages
+³   ³       create.php
+³   ³       delete.php
+³   ³       edit.php
+³   ³       index.php
+³   ³       upload_handler.php
+³   ³       
+³   ÃÄÄÄpartials
+³   ³       sidebar.php
+³   ³       topbar.php
+³   ³       
+³   ÃÄÄÄproducts
+³   ³       create.php
+³   ³       delete.php
+³   ³       edit.php
+³   ³       get_attributes.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄproduct_images
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄprojects
+³   ³       create.php
+³   ³       delete.php
+³   ³       edit.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄproject_images
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄroles
+³   ³       create.php
+³   ³       delete.php
+³   ³       edit.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄsettings
+³   ³       index.php
+³   ³       save.php
+³   ³       
+³   ÃÄÄÄsliders
+³   ³       create.php
+³   ³       delete.php
+³   ³       edit.php
+³   ³       index.php
+³   ³       
+³   ÃÄÄÄtheme_options
+³   ³       index.php
+³   ³       save.php
+³   ³       
+³   ÀÄÄÄusers
+³           create.php
+³           delete.php
+³           edit.php
+³           index.php
+³           
+ÃÄÄÄassets
+³   ÃÄÄÄcss
+³   ³       admin.css
+³   ³       style.css
+³   ³       
+³   ÃÄÄÄimages
+³   ÃÄÄÄjs
+³   ³       admin.js
+³   ³       script.js
+³   ³       
+³   ÃÄÄÄuploads
+³   ³   ³   1753603167_7.png
+³   ³   ³   1753603431_7.png
+³   ³   ³   1753603488_1.png
+³   ³   ³   1753604342_7.png
+³   ³   ³   1753604419_4.png
+³   ³   ³   1753610615_7.png
+³   ³   ³   1753611735_6.png
+³   ³   ³   1753622937_Screenshot (3).png
+³   ³   ³   1753622940_Screenshot (3).png
+³   ³   ³   1753623028_Screenshot (3).png
+³   ³   ³   1753666053_ChatGPT Image 08_52_27 18 thg 7, 2025.png
+³   ³   ³   68861f018194f_2.png
+³   ³   ³   68862160bb8d2_6.png
+³   ³   ³   68862176d4d59_6.png
+³   ³   ³   
+³   ³   ÀÄÄÄproject_images
+³   ³           1753621190_2.png
+³   ³           1753621624_2.png
+³   ³           
+³   ÀÄÄÄvendor
+ÃÄÄÄconfig
+³       constants.php
+³       database.php
+³       
+ÃÄÄÄcontrollers
+³       AdminController.php
+³       AppointmentController.php
+³       BlogController.php
+³       ProductController.php
+³       
+ÃÄÄÄfunctions
+³       auth.php
+³       helpers.php
+³       validators.php
+³       
+ÃÄÄÄhelpers
+³       log_action.php
+³       permission_check.php
+³       
+ÃÄÄÄmodels
+³       Appointment.php
+³       BaseModel.php
+³       Category.php
+³       Product.php
+³       SiteSetting.php
+³       
+ÃÄÄÄpages
+³       appointment_handler.php
+³       blog.php
+³       contact.php
+³       home.php
+³       product_detail.php
+³       product_list.php
+³       project_gallery.php
+³       
+ÃÄÄÄroutes
+³       web.php
+³       
+ÃÄÄÄtemplates
+³       footer.php
+³       head.php
+³       header.php
+³       layout.php
+³       
+ÃÄÄÄuploads
+³   ÃÄÄÄavatars
+³   ³       avatar_688c5897c61422.30608217.png
+³   ³       
+³   ÃÄÄÄbanners
+³   ÃÄÄÄblogs
+³   ³       blog_688c5ec5e97370.09008951.png
+³   ³       
+³   ÃÄÄÄlibrary
+³   ³       media_6889b73a5ef9a0.24458802_ChatGPT Image 14_32_26 23 thg 7, 2025.png
+³   ³       
+³   ÃÄÄÄproducts
+³   ³       product_688c5c43a1fd62.63924677.jpg
+³   ³       product_688c5cb21b1599.04607268.jpg
+³   ³       product_688c5d56403ac8.38975889.png
+³   ³       product_688c5d67404b61.07332127.png
+³   ³       product_688c5df34f1d15.52765799.png
+³   ³       prod_img_688b393ed4e665.52814537.png
+³   ³       prod_img_688b39429f0e96.52040327.png
+³   ³       prod_img_688b3a28f0f4e9.53771205.png
+³   ³       prod_img_688b3bfda31551.65216514.png
+³   ³       prod_img_688b3c6a8cced5.52343456.png
+³   ³       prod_img_688c2f9d89c490.73307699.png
+³   ³       prod_img_688c2fa2f3ce52.02623871.png
+³   ³       prod_img_688c2fedd08165.83874139.png
+³   ³       
+³   ÃÄÄÄprojects
+³   ³       project_20_688c29e028b2a4.65353472.png
+³   ³       project_21_688c5f4fb8eff3.27906368.png
+³   ³       project_thumb_688c5f7177b0e1.91132524.png
+³   ³       project_thumb_688c5f957859c9.79913629.png
+³   ³       
+³   ÃÄÄÄsliders
+³   ³       slider_688c4286547f98.56921295.jpg
+³   ³       slider_688c42d7552e45.58236434.jpg
+³   ³       
+³   ÀÄÄÄtheme
+³           banner_image_688c5a996830b3.59039129.jpg
+³           favicon_688ade6ee6fcf4.95142920.png
+³           logo_light_6889d1b9eaebb2.06421032.png
+³           
+ÀÄÄÄvendor
+    ³   autoload.php
+    ³   
+    ÃÄÄÄcomposer
+    ³       autoload_classmap.php
+    ³       autoload_namespaces.php
+    ³       autoload_psr4.php
+    ³       autoload_real.php
+    ³       autoload_static.php
+    ³       ClassLoader.php
+    ³       installed.json
+    ³       installed.php
+    ³       InstalledVersions.php
+    ³       LICENSE
+    ³       platform_check.php
+    ³       
+    ÀÄÄÄphpmailer
+        ÀÄÄÄphpmailer
+            ³   COMMITMENT
+            ³   composer.json
+            ³   get_oauth_token.php
+            ³   LICENSE
+            ³   README.md
+            ³   SECURITY.md
+            ³   SMTPUTF8.md
+            ³   VERSION
+            ³   
+            ÃÄÄÄlanguage
+            ³       phpmailer.lang-af.php
+            ³       phpmailer.lang-ar.php
+            ³       phpmailer.lang-as.php
+            ³       phpmailer.lang-az.php
+            ³       phpmailer.lang-ba.php
+            ³       phpmailer.lang-be.php
+            ³       phpmailer.lang-bg.php
+            ³       phpmailer.lang-bn.php
+            ³       phpmailer.lang-ca.php
+            ³       phpmailer.lang-cs.php
+            ³       phpmailer.lang-da.php
+            ³       phpmailer.lang-de.php
+            ³       phpmailer.lang-el.php
+            ³       phpmailer.lang-eo.php
+            ³       phpmailer.lang-es.php
+            ³       phpmailer.lang-et.php
+            ³       phpmailer.lang-fa.php
+            ³       phpmailer.lang-fi.php
+            ³       phpmailer.lang-fo.php
+            ³       phpmailer.lang-fr.php
+            ³       phpmailer.lang-gl.php
+            ³       phpmailer.lang-he.php
+            ³       phpmailer.lang-hi.php
+            ³       phpmailer.lang-hr.php
+            ³       phpmailer.lang-hu.php
+            ³       phpmailer.lang-hy.php
+            ³       phpmailer.lang-id.php
+            ³       phpmailer.lang-it.php
+            ³       phpmailer.lang-ja.php
+            ³       phpmailer.lang-ka.php
+            ³       phpmailer.lang-ko.php
+            ³       phpmailer.lang-ku.php
+            ³       phpmailer.lang-lt.php
+            ³       phpmailer.lang-lv.php
+            ³       phpmailer.lang-mg.php
+            ³       phpmailer.lang-mn.php
+            ³       phpmailer.lang-ms.php
+            ³       phpmailer.lang-nb.php
+            ³       phpmailer.lang-nl.php
+            ³       phpmailer.lang-pl.php
+            ³       phpmailer.lang-pt.php
+            ³       phpmailer.lang-pt_br.php
+            ³       phpmailer.lang-ro.php
+            ³       phpmailer.lang-ru.php
+            ³       phpmailer.lang-si.php
+            ³       phpmailer.lang-sk.php
+            ³       phpmailer.lang-sl.php
+            ³       phpmailer.lang-sr.php
+            ³       phpmailer.lang-sr_latn.php
+            ³       phpmailer.lang-sv.php
+            ³       phpmailer.lang-tl.php
+            ³       phpmailer.lang-tr.php
+            ³       phpmailer.lang-uk.php
+            ³       phpmailer.lang-ur.php
+            ³       phpmailer.lang-vi.php
+            ³       phpmailer.lang-zh.php
+            ³       phpmailer.lang-zh_cn.php
+            ³       
+            ÀÄÄÄsrc
+                    DSNConfigurator.php
+                    Exception.php
+                    OAuth.php
+                    OAuthTokenProvider.php
+                    PHPMailer.php
+                    POP3.php
+                    SMTP.php
+                    
